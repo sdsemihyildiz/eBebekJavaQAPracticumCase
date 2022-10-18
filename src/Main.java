@@ -13,7 +13,8 @@ public class Main {
 		System.out.println("Vergi: " + e1.tax());
 		System.out.println("Bonus: " + e1.bonus());
 		System.out.println("Maaş artışı: " + e1.raiseSalary());
-		System.out.println("Yeni Maaş: " + (e1.getSalary() + e1.raiseSalary()));
+		System.out.println("Vergi ve Bonuslar ile birlikte maaş: " + e1.taxBonusSalary());
+		System.out.println("Toplam Maaş: " + e1.newSalary());
 
 	}
 }
