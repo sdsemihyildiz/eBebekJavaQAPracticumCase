@@ -1,15 +1,19 @@
 public class Main {
 
-    public static void main(String[] args) throws Exception {
+	public static void main(String[] args) throws Exception {
 
-        //Kontrol amaçlı oluşturulmuş bir main
+		// Kontrol amaçlı oluşturulmuş bir main
 
-        Employee e1 = new Employee("Semih Yildiz", 16500, 45, 2010);
+		Employee e1 = new Employee("Semih Yildiz", 2000, 45, 1985);
 
-        System.out.println(e1);
-        System.out.println("Tax amount: " + e1.tax());
-        System.out.println("Salary Bonus: " + e1.bonus());
-        System.out.println("Salary Raise: " + e1.raiseSalary());
+		System.out.println("Adı: " + e1.getName());
+		System.out.println("Maaşı: " + e1.getSalary());
+		System.out.println("Çalışma Saati: " + e1.getWorkHours());
+		System.out.println("Başlangıç Yılı: " + e1.getHireYear());
+		System.out.println("Vergi: " + e1.tax());
+		System.out.println("Bonus: " + e1.bonus());
+		System.out.println("Maaş artışı: " + e1.raiseSalary());
+		System.out.println("Yeni Maaş: " + (e1.getSalary() + e1.raiseSalary()));
 
-    }
+	}
 }
