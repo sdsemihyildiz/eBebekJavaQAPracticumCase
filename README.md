@@ -29,7 +29,18 @@ yazdırmanızı bekliyoruz.
 - Eğer çalışan 9 yıldan fazla ve 20 yıldan az çalışıyorsa maaşına %10 zam yapılacaktır.
 - Eğer çalışan 19 yıldan fazla çalışıyorsa %15 zam yapılacaktır.
 - toString() : Çalışana ait bilgileri ekrana bastıracaktır.
-- Not: raiseSalary() hesaplarken vergi ve bonusları dikkate almalısınız.
+- Örnek konsol çıktısı:
+
+<a href="https://ibb.co/SDCqLrZ"><img src="https://i.ibb.co/qLQbZ52/Ekran-Resmi-2022-10-20-17-04-02.png" alt="Ekran-Resmi-2022-10-20-17-04-02" border="0"></a>
+
+
+
+## Notlar
+
+- raiseSalary() hesaplarken vergi ve bonusları dikkate almalısınız.
+- tax() fonksiyonu ile sadece salary’i uygulanan vergi hesaplanacak.
+- Toplam maaş: çalışanın kendi maaşı +artış+ bonus.
+- Vergi ve bonuslarla birlikte maaş için: vergi, bonus ve çalışanın kendi maaşı ile bulunacak.
 
 
 
